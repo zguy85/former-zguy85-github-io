@@ -1,6 +1,11 @@
-ul {
+body {
+	background-color: #87CEFA;
+}
+
+ul.projects {
 	color: white;
 	background-color: gray;
+	list-style-type: circle;
 }
 
 p {
