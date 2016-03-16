@@ -1,0 +1,25 @@
+Playing around with ideas for my page, menu layout.
+
+HTML
+<p class="position_static">This paragraph has a static position.</p>
+<table class="menu" border="3">
+    <tr>
+        <td bgcolor=red>Home</td>
+        <td bgcolor=green>Projects</td>
+        <td bgcolor=blue>About Me</td>
+    </tr>
+</table>
+
+CSS
+.position_static {
+    position:absolute;
+    top: 100px;
+    right: 50px;
+    color: red;
+}
+
+.menu {
+    position:absolute;
+    top: 200px;
+    left: 20px;
+}
