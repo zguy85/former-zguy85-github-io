@@ -1,0 +1,54 @@
+var character = {
+ +				name: username,
+ +				health: 100,
+ +				attack: 35,
+ +				defense: 50
+ +			};
+ +			
+ +			// attempt to display various attributes.
+ 			alert(character.name);
+ 			
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Making A Simple Screen Layout</title>
+		<style>
+			body {
+				background: #bbbbbb;
+			}
+			#screen {
+				position: absolute;
+				text-align: center;
+				width: 95%;
+				margin: 0 auto;
+				margin-left: auto;
+				margin-right: auto;
+				height: 50%;
+				font: 12px sans-serif;
+				background: #008AB8;
+				border: 0px;
+				border-radius: 6px;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div id="screen">
+		</div>
+		
+		<script>
+			var username = prompt("Welcome to the page! \nPlease enter a username.");
+			alert("Hello, " + username + "!");
+			
+			// create character
+			var character = {
+				name: username,
+				health: 100;
+				defense: 25;
+				attack: 25;
+			};
+			
+			alert("Your health is: " + character.health);
+		</script>
+	</body>
+</html>
