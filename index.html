@@ -1,24 +1,77 @@
+<!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="style.css">
-		<title>Zuriel's Projects</title>
+		<title>Z's Webpage</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<style>
+			body {
+				width: 80%;
+				margin: auto;
+				text-align: center;
+				background: #0080FF;
+			}
+			
+			#logo {
+				float: left;
+				width: 10%;
+				height: 77px;
+				border-radius: 12px;
+				background: blue;
+				color: white;
+			}
+			
+			#banner {
+				float: right;
+				width: 90%;
+				height: 77px;
+				border-radius: 12px;
+				background: blue;
+				color: white;
+			}
+			
+			#footer {
+				text-align: center;
+				padding: 10px;
+				font: 12px sans-serif;
+				border: 0px;
+				border-radius: 6px;
+				margin: auto;
+			}
+			
+			ul {
+				list-style-type: none;
+				margin: 10px;
+			}
+			
+			li {
+				display: inline;
+				border-radius: 5px;
+				padding: 10px;
+				font: 20px sans-serif;
+			}
+		</style>
 	</head>
 	<body>
-		<!-- This is just a test page to get some ideas on how I want to design my pages.. -->
-		<h1><b><sup>Z</sup><sub>L</sub><b></h1>
-		<h3>Welcome to Z's page!</h3>
-		<hr /r>
-		<p>This is a page to see the different projects<br />that I am currently working on.</p>
-		<b><sup>Z</sup><sub>L</sub></b>
-		<p><del>This is just a normal web page.</del><b>This is the start of the greatest page <big>ever</big>!</b></p>
-		
-		Below are a list of the current projects that I am working on:
-		<ul class="projects">
-			<li>Church Webpage</a></li>
-			<li>Android Apps</li>
-			<li>Z's Photography</li>
+		<div id="logo"><h2><sup>Z</sup>/<sub>L</sub></h2></div>
+		<div id="banner"><h1>Welcome to Z's Homepage</h1></div>
+		<br /><br /><br /><br /><br />
+		<ul>
+			<li>Home</li>
+			<li>About Me</li>
+			<li>Contact Me</li>
 		</ul>
-		
-		Or, you can find a list of them <a href="projects/project.html">here</a>.
-	<body>
+		<div id="content">
+			<p>Be sure to check out my blog! I add a new post every Saturday. The link can be found
+			<a href="www.facetheroar.wordpress.com">here</a>. If you like what you see, hit the like
+			button and leave a comment. I look forward to hearing from you!</p>
+		</div>
+		<div id="footer">
+			<sub>All content on this page is managed by Z.</sub>
+		</div>
+		<script>
+			$(document).ready(function(){
+				$("ul").hide(0);
+			})
+		</script>
+	</body>
 </html>
