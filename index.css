@@ -7,6 +7,9 @@ body {
 
 #content {
 	font: 20px sans-serif;
+	width: 80%;
+	margin: auto;
+	text-align: center;
 }
 
 #logo {
