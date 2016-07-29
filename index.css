@@ -3,6 +3,9 @@ body {
 	margin: auto;
 	text-align: center;
 	background: #0080FF;
+}
+
+#content {
 	font: 20px sans-serif;
 }
 
